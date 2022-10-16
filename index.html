@@ -1,0 +1,672 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sunset</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../font/fontawesome/css/all.css">
+<link rel="stylesheet" href="../font/bootstrap/bootstrap-icons.css">
+
+<link href="css/raminpars.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb17.min.js"></script>
+
+
+<script>
+$(document).ready(function()
+{
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $('#reviewsImage1').addClass('visibility-hidden');
+   $('#portfolio-image2').addClass('visibility-hidden');
+   $("a[href*='#welcome']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_welcome').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#services1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_services1').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   function onScrollservices1()
+   {
+      var $obj = $("#wb_services1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollservices1();
+   $(window).scroll(function(event)
+   {
+      onScrollservices1();
+   });
+   $("a[href*='#services2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_services2').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   function onScrollservices2()
+   {
+      var $obj = $("#wb_services2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollservices2();
+   $(window).scroll(function(event)
+   {
+      onScrollservices2();
+   });
+   function onScrollmore_servicesDividerTop()
+   {
+      var $obj = $('#more-services-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollmore_servicesDividerTop();
+   $(window).scroll(function(event)
+   {
+      onScrollmore_servicesDividerTop();
+   });
+   $("a[href*='#box-vpn']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_box-vpn').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   function onScrollbox_vpn()
+   {
+      var $obj = $("#wb_box-vpn");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollbox_vpn();
+   $(window).scroll(function(event)
+   {
+      onScrollbox_vpn();
+   });
+   $("a[href*='#blog']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_blog').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   function onScrollblogDividerTop()
+   {
+      var $obj = $('#blog-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollblogDividerTop();
+   $(window).scroll(function(event)
+   {
+      onScrollblogDividerTop();
+   });
+   function onScrollblog()
+   {
+      var $obj = $("#wb_blog");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollblog();
+   $(window).scroll(function(event)
+   {
+      onScrollblog();
+   });
+   $("a[href*='#blog-Grid']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_blog-Grid').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   function onScrollblog_Grid()
+   {
+      var $obj = $("#wb_blog-Grid");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('reviewsImage1', 'animate-fade-in-up', 0, 1000);
+         AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
+      }
+   }
+   onScrollblog_Grid();
+   $(window).scroll(function(event)
+   {
+      onScrollblog_Grid();
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeInCubic');
+   });
+   function onScrollcontactDividerTop()
+   {
+      var $obj = $('#contact-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollcontactDividerTop();
+   $(window).scroll(function(event)
+   {
+      onScrollcontactDividerTop();
+   });
+   $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'push', position: 'left'});
+   $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+   {
+      event.preventDefault();
+      $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+   });
+   $("#RollOverLayer2").hover(function(e)
+   {
+      $(".hover", this).css("left","100%");
+      $(".hover", this).css("zIndex", "999");
+      $(".hover", this).stop().animate({left:"0px"},{queue:false,duration:1000});
+   }, function()
+   {
+      $(".hover", this).stop().animate({left:"100%"},{queue:false,duration:1000});
+   });
+   $("#RollOverLayer1").hover(function(e)
+   {
+      $(".hover", this).css("left","100%");
+      $(".hover", this).css("zIndex", "999");
+      $(".hover", this).stop().animate({left:"0px"},{queue:false,duration:1000});
+   }, function()
+   {
+      $(".hover", this).stop().animate({left:"100%"},{queue:false,duration:1000});
+   });
+   $("#Layer-3").hover(function(e)
+   {
+      $(".hover", this).css("left","100%");
+      $(".hover", this).css("zIndex", "999");
+      $(".hover", this).stop().animate({left:"0px"},{queue:false,duration:1000});
+   }, function()
+   {
+      $(".hover", this).stop().animate({left:"100%"},{queue:false,duration:1000});
+   });
+   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+   if (iOS)
+   {
+      $('#wb_welcome,#welcomeText,#wb_more-services,#wb_box-vpn,#wb_contact,#PanelLayer').css('background-attachment', 'scroll');
+   }
+});
+</script>
+</head>
+<body>
+<div id="wb_welcome">
+<div id="welcome-divider-bottom">
+</div>
+<div id="welcome">
+<div class="col-1">
+<div id="wb_welcomeText">
+<p style="font-size:16px;line-height:18px;"><span style="font-size:32px;line-height:36px;font-weight:bold;">RAMIN PARS</span></p>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_services1">
+<div id="services1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:1;" class="card">
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0"><svg class="svg-icon" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M171 77 C176 73, 178 68, 178 63 C178 57, 176 52, 171 48 C167 44, 162 42, 156 42 L149 42 L149 83 L156 83 C162 83, 167 81, 171 77 Z M-6 145 L192 145 C192 152, 189 159, 183 164 C178 170, 171 172, 163 172 L22 172 C14 172, 8 170, 2 164 C-3 159, -6 152, -6 145 Z M186 33 C195 41, 199 51, 199 63 C199 74, 195 84, 186 92 C178 100, 168 104, 156 104 L149 104 L149 107 C149 114, 147 119, 142 124 C137 129, 131 131, 125 131 L47 131 C40 131, 34 129, 30 124 C25 119, 22 114, 22 107 L22 28 C22 26, 23 25, 24 23 C26 22, 27 21, 29 21 L156 21 C168 21, 178 25, 186 33"/>
+</svg>
+</div>
+      <div id="Card1-card-item1">Corporis voluptates sit</div>
+      <div id="Card1-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card2" style="display:flex;width:100%;z-index:2;" class="card">
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0"><svg class="svg-icon" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M188 102 C188 114, 185 125, 181 136 L179 141 L158 144 C157 150, 153 155, 148 159 C143 163, 138 165, 131 165 L131 168 C131 169, 131 170, 130 171 C129 171, 129 172, 128 172 L120 172 C119 172, 119 171, 118 171 C117 170, 117 169, 117 168 L117 106 C117 105, 117 105, 118 104 C119 103, 119 103, 120 103 L128 103 C129 103, 129 103, 130 104 C131 105, 131 105, 131 106 L131 110 C136 110, 141 111, 145 114 C150 116, 153 120, 156 124 L163 123 C165 116, 166 109, 166 102 C166 91, 163 81, 157 72 C150 63, 142 55, 131 50 C120 44, 108 41, 96 41 C84 41, 72 44, 61 50 C50 55, 41 63, 35 72 C28 81, 25 91, 25 102 C25 109, 26 116, 28 123 L36 124 C38 120, 42 116, 46 114 C50 111, 55 110, 60 110 L60 106 C60 105, 61 105, 61 104 C62 103, 63 103, 64 103 L71 103 C72 103, 73 103, 74 104 C74 105, 75 105, 75 106 L75 168 C75 169, 74 170, 74 171 C73 171, 72 172, 71 172 L64 172 C63 172, 62 171, 61 171 C61 170, 60 169, 60 168 L60 165 C54 165, 48 163, 43 159 C38 155, 35 150, 33 144 L13 141 L11 136 C6 125, 4 114, 4 102 C4 91, 6 81, 11 71 C16 61, 23 52, 31 45 C39 37, 49 32, 60 27 C72 23, 84 21, 96 21 C108 21, 120 23, 131 27 C142 32, 152 37, 160 45 C169 52, 175 61, 180 71 C185 81, 188 91, 188 102"/>
+</svg>
+</div>
+      <div id="Card2-card-item1">Labore consequatur</div>
+      <div id="Card2-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Card3" style="display:flex;width:100%;z-index:3;" class="card">
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0"><svg class="svg-icon" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M181 17 L181 137 C181 141, 180 144, 178 147 C175 149, 172 151, 168 153 C164 155, 161 156, 157 156 C153 157, 149 158, 146 158 C143 158, 139 157, 136 156 C132 156, 128 155, 124 153 C120 151, 117 149, 115 147 C112 144, 111 141, 111 137 C111 133, 112 130, 115 127 C117 125, 120 122, 124 121 C128 119, 132 118, 136 118 C139 117, 143 116, 146 116 C154 116, 161 118, 167 121 L167 63 L83 88 L83 164 C83 168, 81 171, 79 174 C76 177, 73 179, 69 180 C66 182, 62 183, 58 184 C54 185, 51 185, 47 185 C44 185, 40 185, 37 184 C33 183, 29 182, 25 180 C21 179, 18 177, 16 174 C13 171, 12 168, 12 164 C12 161, 13 158, 16 155 C18 152, 21 150, 25 148 C29 147, 33 146, 37 145 C40 144, 44 144, 47 144 C55 144, 62 145, 68 148 L68 44 C68 42, 69 40, 71 38 C72 37, 74 35, 76 35 L168 7 C169 7, 170 7, 171 7 C174 7, 176 8, 178 10 C180 12, 181 14, 181 17"/>
+</svg>
+</div>
+      <div id="Card3-card-item1">Sed ut perspiciatis</div>
+      <div id="Card3-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_services2">
+<div id="services2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card4" style="display:flex;width:100%;z-index:4;" class="card">
+   <div id="Card4-card-body">
+      <div id="Card4-card-item0"><svg class="svg-icon" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M101 176 C99 178, 98 178, 96 178 C94 178, 92 178, 91 176 L22 112 C21 111, 20 110, 19 109 C18 108, 16 105, 13 102 C10 99, 8 95, 5 92 C3 88, 1 84, 0 79 C-2 74, -3 69, -3 64 C-3 48, 2 36, 11 27 C20 18, 33 14, 50 14 C54 14, 59 14, 64 16 C68 18, 73 20, 77 22 C81 25, 85 27, 87 30 C90 32, 93 34, 96 37 C98 34, 101 32, 104 30 C107 27, 111 25, 115 22 C119 20, 123 18, 128 16 C133 14, 137 14, 142 14 C158 14, 171 18, 181 27 C190 36, 195 48, 195 64 C195 80, 186 96, 169 112 L101 176Z "/>
+</svg>
+</div>
+      <div id="Card4-card-item1">Magni Dolores</div>
+      <div id="Card4-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card5" style="display:flex;width:100%;z-index:5;" class="card">
+   <div id="Card5-card-body">
+      <div id="Card5-card-item0"><svg class="svg-icon" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M183 167 C184 165, 186 165, 188 165 C190 165, 191 165, 193 167 L207 180 L197 190 L188 181 L179 190 C177 191, 176 192, 174 192 C172 192, 170 191, 169 190 L160 181 L150 190 C149 191, 147 192, 145 192 C144 192, 142 191, 140 190 L131 181 L122 190 C121 191, 119 192, 117 192 C115 192, 114 191, 112 190 L103 181 L94 190 C92 191, 91 192, 89 192 C87 192, 85 191, 84 190 L75 181 L66 190 C64 191, 63 192, 61 192 C59 192, 57 191, 56 190 L47 181 L37 190 C36 191, 34 192, 32 192 C30 192, 29 191, 27 190 L18 181 L9 190 C8 191, 6 192, 4 192 C2 192, 1 191, -1 190 L-15 176 L-5 167 L4 175 L13 167 C15 165, 16 165, 18 165 C20 165, 22 165, 23 167 L32 175 L42 167 C43 165, 45 165, 47 165 C48 165, 50 165, 51 167 L61 175 L70 167 C71 165, 73 165, 75 165 C77 165, 78 165, 80 167 L89 175 L98 167 C99 165, 101 165, 103 165 C105 165, 107 165, 108 167 L117 175 L126 167 C128 165, 129 165, 131 165 C133 165, 135 165, 136 167 L145 175 L155 167 C156 165, 158 165, 160 165 C161 165, 163 165, 165 167 L174 175Z  M9 162 C8 164, 6 165, 4 165 C2 165, 1 164, -1 162 L-15 149 L-5 139 L4 148 L13 139 C15 138, 16 137, 18 137 C20 137, 22 138, 23 139 L32 148 L39 141 L39 110 L16 76 C15 74, 15 72, 16 70 C16 68, 18 66, 20 66 L39 59 L39 27 L54 27 L54 14 L82 14 L82 0 L110 0 L110 14 L138 14 L138 27 L152 27 L152 59 L172 66 C174 66, 176 68, 176 70 C177 72, 177 74, 176 76 L152 110 L152 141 L155 139 C156 138, 158 137, 160 137 C161 137, 163 138, 165 139 L174 148 L183 139 C184 138, 186 137, 188 137 C190 137, 191 138, 193 139 L207 153 L197 162 L188 154 L179 162 C177 164, 176 165, 174 165 C172 165, 170 164, 169 162 L160 154 L150 162 C149 164, 147 165, 145 165 C144 165, 142 164, 140 162 L131 154 L122 162 C121 164, 119 165, 117 165 C115 165, 114 164, 112 162 L103 154 L94 162 C92 164, 91 165, 89 165 C87 165, 85 164, 84 162 L75 154 L66 162 C64 164, 63 165, 61 165 C59 165, 57 164, 56 162 L47 154 L37 162 C36 164, 34 165, 32 165 C30 165, 29 164, 27 162 L18 154Z  M54 41 L54 55 L96 41 L138 55 L138 41 L124 41 L124 27 L68 27 L68 41Z "/>
+</svg>
+</div>
+      <div id="Card5-card-item1">Ullamco laboris nisi</div>
+      <div id="Card5-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
+   </div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Card6" style="display:flex;width:100%;z-index:6;" class="card">
+   <div id="Card6-card-body">
+      <div id="Card6-card-item0"><svg class="svg-icon" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M171 24 C174 28, 174 33, 172 40 C170 47, 166 53, 160 58 L142 76 L160 150 C160 152, 160 153, 159 154 L145 164 C144 164, 143 165, 143 165 C142 165, 142 165, 142 165 C141 164, 140 164, 139 163 L109 108 L80 136 L86 157 C86 158, 86 159, 85 160 L74 171 C74 171, 73 172, 72 172 L72 172 C71 171, 70 171, 69 170 L48 143 L20 123 C20 122, 19 122, 19 120 C19 120, 19 119, 20 118 L31 107 C31 107, 32 106, 33 106 C34 106, 34 106, 34 106 L55 112 L84 84 L28 55 C27 54, 26 53, 26 52 C26 51, 26 50, 27 49 L41 35 C42 34, 43 34, 44 34 L118 52 L135 34 C141 29, 147 25, 154 23 C162 21, 167 21, 171 24"/>
+</svg>
+</div>
+      <div id="Card6-card-item1">Quisquam quos</div>
+      <div id="Card6-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_more-services">
+<div id="more-services-overlay"></div>
+<div id="more-services-divider-top">
+</div>
+<div id="more-services">
+<div id="wb_more-Card1" style="display:flex;text-align:center;z-index:7;" class="card">
+   <div id="more-Card1-card-body">
+      <div id="more-Card1-card-item0"><svg class="svg-icon" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M139 107 C142 101, 143 93, 143 86 C143 78, 142 71, 139 65 C136 58, 132 52, 127 47 C121 42, 115 38, 108 35 C101 32, 94 31, 86 31 C79 31, 71 32, 64 35 C57 38, 51 42, 46 47 C41 52, 37 58, 34 65 C31 71, 29 78, 29 86 C29 93, 31 101, 34 107 C37 114, 41 120, 46 125 C51 130, 57 134, 64 137 C71 140, 79 141, 86 141 C94 141, 101 140, 108 137 C115 134, 121 130, 127 125 C132 120, 136 114, 139 107 Z M170 113 C170 114, 170 114, 168 114 L140 124 L140 153 C140 154, 139 155, 138 156 C137 156, 136 156, 135 156 L107 147 L89 171 C88 172, 87 172, 86 172 C85 172, 84 172, 84 171 L66 147 L37 156 C36 156, 35 156, 34 156 C33 155, 33 154, 33 153 L33 124 L4 114 C3 114, 2 114, 2 113 C2 111, 2 111, 2 110 L20 86 L2 62 C2 61, 2 60, 2 59 C2 58, 3 58, 4 57 L33 48 L33 19 C33 18, 33 17, 34 16 C35 16, 36 16, 37 16 L66 25 L84 1 C84 0, 85 0, 86 0 C87 0, 88 0, 89 1 L107 25 L135 16 C136 16, 137 16, 138 16 C139 17, 140 18, 140 19 L140 48 L168 57 C170 58, 170 58, 170 59 C171 60, 171 61, 170 62 L152 86 L170 110 C171 111, 171 111, 170 113"/>
+</svg>
+</div>
+      <hr id="more-Card1-card-item1">
+      <div id="more-Card1-card-item2">TIP 1</div>
+      <div id="more-Card1-card-item3">Do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+   </div>
+</div>
+<div id="wb_more-Card2" style="display:flex;text-align:center;z-index:8;" class="card">
+   <div id="more-Card2-card-body">
+      <div id="more-Card2-card-item0"><svg class="svg-icon" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M138 125 C135 126, 131 126, 128 126 C116 126, 104 123, 94 117 C84 112, 76 104, 70 94 C64 84, 61 73, 61 61 C61 49, 65 38, 71 27 C58 31, 47 38, 39 49 C30 60, 26 72, 26 86 C26 94, 28 102, 31 110 C35 117, 39 124, 45 129 C50 135, 57 139, 65 143 C73 146, 81 147, 90 147 C99 147, 108 145, 117 141 C125 138, 132 132, 138 125 Z M158 117 C152 130, 143 140, 130 148 C118 156, 104 160, 90 160 C79 160, 69 158, 60 154 C51 150, 43 145, 36 138 C29 132, 24 124, 20 115 C16 105, 14 96, 14 86 C14 76, 16 67, 19 58 C23 49, 28 41, 35 35 C41 28, 49 23, 58 19 C67 15, 77 13, 87 12 C90 12, 92 13, 93 16 C94 19, 93 21, 91 23 C86 28, 81 34, 78 40 C75 47, 74 54, 74 61 C74 71, 76 80, 81 88 C86 96, 92 102, 101 107 C109 111, 118 114, 128 114 C135 114, 143 112, 150 109 C153 108, 155 108, 157 110 C158 111, 159 112, 159 113 C159 115, 159 116, 158 117"/>
+</svg>
+</div>
+      <hr id="more-Card2-card-item1">
+      <div id="more-Card2-card-item2">TIP 2</div>
+      <div id="more-Card2-card-item3">Do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+   </div>
+</div>
+<div id="wb_more-Card3" style="display:flex;text-align:center;z-index:9;" class="card">
+   <div id="more-Card3-card-body">
+      <div id="more-Card3-card-item0"><svg class="svg-icon" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M166 12 C166 14, 164 17, 161 19 L99 80 L99 154 L131 154 C132 154, 134 154, 135 156 C136 157, 137 158, 137 160 C137 161, 136 163, 135 164 C134 165, 132 166, 131 166 L42 166 C40 166, 39 165, 37 164 C36 163, 36 161, 36 160 C36 158, 36 157, 37 156 C39 154, 40 154, 42 154 L74 154 L74 80 L11 19 C8 17, 7 14, 7 12 C7 10, 7 9, 9 8 C10 7, 11 7, 12 7 C14 6, 15 6, 17 6 L156 6 C157 6, 159 6, 160 7 C161 7, 163 7, 164 8 C165 9, 166 10, 166 12"/>
+</svg>
+</div>
+      <hr id="more-Card3-card-item1">
+      <div id="more-Card3-card-item2">TIP 3</div>
+      <div id="more-Card3-card-item3">Do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_box-vpn">
+<div id="box-vpn">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_titr" style="display:inline-block;width:100%;z-index:10;">
+<h1 id="titr">دانلود VPN پر سرعت</h1>
+</div>
+<a id="Button-link-vpn" href="#" style="display:inline-block;width:156px;height:37px;z-index:11;">دانلود</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_blog">
+<div id="blog-divider-top">
+</div>
+<div id="blog">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_blog-h" style="display:inline-block;width:100%;z-index:12;">
+<h1 id="blog-h">بلاگ ها</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_blog-Grid">
+<div id="blog-Grid">
+<div class="row">
+<div class="col-1">
+<div id="RollOverLayer2" style="overflow:hidden;z-index:15">
+<div class="hover">
+<div id="wb_c-1-2" style="display:flex;width:100%;text-align:center;z-index:13;" class="card">
+   <div id="c-1-2-card-body">
+      <div id="c-1-2-card-item0">Hacienda Na Xamena</div>
+      <div id="c-1-2-card-item1">Ibiza</div>
+      <div id="c-1-2-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam</div>
+      <div id="c-1-2-card-item3"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M63 4 L63 16 L56 16 C53 16, 51 16, 50 18 C49 19, 49 20, 49 23 L49 32 L63 32 L61 45 L49 45 L49 81 L34 81 L34 45 L22 45 L22 32 L34 32 L34 21 C34 16, 36 11, 39 8 C42 5, 47 3, 52 3 C57 3, 61 3, 63 4"/>
+</svg>
+</div>
+      <div id="c-1-2-card-item4"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M80 19 C78 22, 75 25, 72 27 C72 27, 72 28, 72 29 C72 33, 72 37, 71 41 C69 45, 68 49, 65 53 C63 56, 60 60, 56 63 C53 65, 49 68, 44 69 C39 71, 34 72, 28 72 C19 72, 11 70, 4 65 C5 65, 6 65, 8 65 C15 65, 22 63, 27 59 C24 59, 21 58, 18 56 C15 54, 14 51, 13 48 C14 49, 15 49, 16 49 C17 49, 18 48, 20 48 C16 47, 13 46, 11 43 C8 40, 7 37, 7 33 L7 33 C9 34, 12 35, 14 35 C12 34, 10 32, 9 30 C8 27, 7 25, 7 22 C7 20, 8 17, 9 15 C13 19, 18 23, 24 26 C29 29, 35 30, 42 31 C41 29, 41 28, 41 27 C41 23, 43 19, 46 16 C49 13, 52 12, 57 12 C61 12, 65 14, 68 17 C72 16, 75 15, 78 13 C77 17, 75 19, 71 21 C74 21, 77 20, 80 19"/>
+</svg>
+</div>
+      <div id="c-1-2-card-item5"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M51 50 C53 48, 54 45, 54 42 C54 39, 53 36, 51 34 C48 31, 45 30, 42 30 C39 30, 36 31, 33 34 C31 36, 30 39, 30 42 C30 45, 31 48, 33 50 C36 53, 39 54, 42 54 C45 54, 48 53, 51 50 Z M56 29 C59 33, 61 37, 61 42 C61 47, 59 51, 56 55 C52 59, 47 60, 42 60 C37 60, 32 59, 29 55 C25 51, 23 47, 23 42 C23 37, 25 33, 29 29 C32 25, 37 24, 42 24 C47 24, 52 25, 56 29 Z M65 20 C66 21, 66 22, 66 23 C66 24, 66 25, 65 26 C64 27, 63 27, 62 27 C61 27, 60 27, 59 26 C58 25, 57 24, 57 23 C57 22, 58 21, 59 20 C60 19, 61 18, 62 18 C63 18, 64 19, 65 20 Z M46 12 C44 12, 42 12, 42 12 C42 12, 41 12, 38 12 C36 12, 34 12, 33 12 C32 12, 31 12, 29 13 C27 13, 25 13, 24 13 C22 13, 21 14, 20 14 C19 15, 17 15, 16 17 C15 18, 14 19, 13 21 C13 22, 12 23, 12 24 C12 25, 12 27, 12 29 C12 31, 12 32, 12 33 C12 35, 12 36, 12 38 C12 41, 12 42, 12 42 C12 42, 12 43, 12 46 C12 48, 12 49, 12 51 C12 52, 12 53, 12 55 C12 57, 12 59, 12 60 C12 61, 13 62, 13 63 C14 65, 15 66, 16 67 C17 69, 19 69, 20 70 C21 70, 22 71, 24 71 C25 71, 27 71, 29 71 C31 71, 32 72, 33 72 C34 72, 36 72, 38 72 C41 72, 42 72, 42 72 C42 72, 44 72, 46 72 C48 72, 50 72, 51 72 C52 72, 54 71, 56 71 C57 71, 59 71, 60 71 C62 71, 63 70, 64 70 C66 69, 67 69, 68 67 C69 66, 70 65, 71 63 C71 62, 72 61, 72 60 C72 59, 72 57, 72 55 C72 53, 72 52, 73 51 C73 49, 73 48, 73 46 C72 43, 72 42, 72 42 C72 42, 72 41, 73 38 C73 36, 73 35, 73 33 C72 32, 72 31, 72 29 C72 27, 72 25, 72 24 C72 23, 71 22, 71 21 C70 19, 69 18, 68 17 C67 15, 66 15, 64 14 C63 14, 62 13, 60 13 C59 13, 57 13, 56 13 C54 12, 52 12, 51 12 C50 12, 48 12, 46 12 Z M79 27 C79 30, 79 35, 79 42 C79 49, 79 54, 79 57 C79 63, 77 68, 73 72 C69 76, 64 77, 57 78 C55 78, 49 78, 42 78 C35 78, 30 78, 27 78 C20 77, 15 76, 11 72 C8 68, 6 63, 5 57 C5 54, 5 49, 5 42 C5 35, 5 30, 5 27 C6 21, 8 16, 11 12 C15 8, 20 7, 27 6 C30 6, 35 6, 42 6 C49 6, 55 6, 57 6 C64 7, 69 8, 73 12 C77 16, 79 21, 79 27"/>
+</svg>
+</div>
+      <hr id="c-1-2-card-item6">
+   </div>
+</div>
+</div>
+<div class="default">
+<div id="wb_c-1-1" style="display:flex;width:100%;text-align:center;z-index:14;" class="card">
+   <div id="c-1-1-card-body">
+      <div style="overflow:hidden"><img id="c-1-1-card-item0" src="images/pro.jpg" width="1256" height="1256" alt="" title=""></div>
+      <div id="c-1-1-card-item1">طرح رامین رودباری</div>
+      <div id="c-1-1-card-item2">PANISA CEKE</div>
+      <div id="c-1-1-card-item3">تاریخ انتشار<br>1401/06/15</div>
+      <div id="c-1-1-card-item4">TEXT...</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="RollOverLayer1" style="overflow:hidden;z-index:18">
+<div class="hover">
+<div id="wb_c-2-2" style="display:flex;width:100%;text-align:center;z-index:16;" class="card">
+   <div id="c-2-2-card-body">
+      <div id="c-2-2-card-item0">Hacienda Na Xamena</div>
+      <div id="c-2-2-card-item1">Ibiza</div>
+      <div id="c-2-2-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam</div>
+      <div id="c-2-2-card-item3"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M63 4 L63 16 L56 16 C53 16, 51 16, 50 18 C49 19, 49 20, 49 23 L49 32 L63 32 L61 45 L49 45 L49 81 L34 81 L34 45 L22 45 L22 32 L34 32 L34 21 C34 16, 36 11, 39 8 C42 5, 47 3, 52 3 C57 3, 61 3, 63 4"/>
+</svg>
+</div>
+      <div id="c-2-2-card-item4"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M80 19 C78 22, 75 25, 72 27 C72 27, 72 28, 72 29 C72 33, 72 37, 71 41 C69 45, 68 49, 65 53 C63 56, 60 60, 56 63 C53 65, 49 68, 44 69 C39 71, 34 72, 28 72 C19 72, 11 70, 4 65 C5 65, 6 65, 8 65 C15 65, 22 63, 27 59 C24 59, 21 58, 18 56 C15 54, 14 51, 13 48 C14 49, 15 49, 16 49 C17 49, 18 48, 20 48 C16 47, 13 46, 11 43 C8 40, 7 37, 7 33 L7 33 C9 34, 12 35, 14 35 C12 34, 10 32, 9 30 C8 27, 7 25, 7 22 C7 20, 8 17, 9 15 C13 19, 18 23, 24 26 C29 29, 35 30, 42 31 C41 29, 41 28, 41 27 C41 23, 43 19, 46 16 C49 13, 52 12, 57 12 C61 12, 65 14, 68 17 C72 16, 75 15, 78 13 C77 17, 75 19, 71 21 C74 21, 77 20, 80 19"/>
+</svg>
+</div>
+      <div id="c-2-2-card-item5"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M51 50 C53 48, 54 45, 54 42 C54 39, 53 36, 51 34 C48 31, 45 30, 42 30 C39 30, 36 31, 33 34 C31 36, 30 39, 30 42 C30 45, 31 48, 33 50 C36 53, 39 54, 42 54 C45 54, 48 53, 51 50 Z M56 29 C59 33, 61 37, 61 42 C61 47, 59 51, 56 55 C52 59, 47 60, 42 60 C37 60, 32 59, 29 55 C25 51, 23 47, 23 42 C23 37, 25 33, 29 29 C32 25, 37 24, 42 24 C47 24, 52 25, 56 29 Z M65 20 C66 21, 66 22, 66 23 C66 24, 66 25, 65 26 C64 27, 63 27, 62 27 C61 27, 60 27, 59 26 C58 25, 57 24, 57 23 C57 22, 58 21, 59 20 C60 19, 61 18, 62 18 C63 18, 64 19, 65 20 Z M46 12 C44 12, 42 12, 42 12 C42 12, 41 12, 38 12 C36 12, 34 12, 33 12 C32 12, 31 12, 29 13 C27 13, 25 13, 24 13 C22 13, 21 14, 20 14 C19 15, 17 15, 16 17 C15 18, 14 19, 13 21 C13 22, 12 23, 12 24 C12 25, 12 27, 12 29 C12 31, 12 32, 12 33 C12 35, 12 36, 12 38 C12 41, 12 42, 12 42 C12 42, 12 43, 12 46 C12 48, 12 49, 12 51 C12 52, 12 53, 12 55 C12 57, 12 59, 12 60 C12 61, 13 62, 13 63 C14 65, 15 66, 16 67 C17 69, 19 69, 20 70 C21 70, 22 71, 24 71 C25 71, 27 71, 29 71 C31 71, 32 72, 33 72 C34 72, 36 72, 38 72 C41 72, 42 72, 42 72 C42 72, 44 72, 46 72 C48 72, 50 72, 51 72 C52 72, 54 71, 56 71 C57 71, 59 71, 60 71 C62 71, 63 70, 64 70 C66 69, 67 69, 68 67 C69 66, 70 65, 71 63 C71 62, 72 61, 72 60 C72 59, 72 57, 72 55 C72 53, 72 52, 73 51 C73 49, 73 48, 73 46 C72 43, 72 42, 72 42 C72 42, 72 41, 73 38 C73 36, 73 35, 73 33 C72 32, 72 31, 72 29 C72 27, 72 25, 72 24 C72 23, 71 22, 71 21 C70 19, 69 18, 68 17 C67 15, 66 15, 64 14 C63 14, 62 13, 60 13 C59 13, 57 13, 56 13 C54 12, 52 12, 51 12 C50 12, 48 12, 46 12 Z M79 27 C79 30, 79 35, 79 42 C79 49, 79 54, 79 57 C79 63, 77 68, 73 72 C69 76, 64 77, 57 78 C55 78, 49 78, 42 78 C35 78, 30 78, 27 78 C20 77, 15 76, 11 72 C8 68, 6 63, 5 57 C5 54, 5 49, 5 42 C5 35, 5 30, 5 27 C6 21, 8 16, 11 12 C15 8, 20 7, 27 6 C30 6, 35 6, 42 6 C49 6, 55 6, 57 6 C64 7, 69 8, 73 12 C77 16, 79 21, 79 27"/>
+</svg>
+</div>
+      <hr id="c-2-2-card-item6">
+   </div>
+</div>
+</div>
+<div class="default">
+<div id="wb_c-2-1" style="display:flex;width:100%;text-align:center;z-index:17;" class="card">
+   <div id="c-2-1-card-body">
+      <div style="overflow:hidden"><img id="c-2-1-card-item0" src="images/pro.jpg" width="1256" height="1256" alt="" title=""></div>
+      <div id="c-2-1-card-item1">طرح رامین رودباری</div>
+      <div id="c-2-1-card-item2">RAMINXZ</div>
+      <div id="c-2-1-card-item3">تاریخ انتشار<br>1401/06/15</div>
+      <div id="c-2-1-card-item4">TEXT...</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div id="Layer-3" style="overflow:hidden;z-index:21">
+<div class="hover">
+<div id="wb_c-3-2" style="display:flex;width:100%;text-align:center;z-index:19;" class="card">
+   <div id="c-3-2-card-body">
+      <div id="c-3-2-card-item0">Hacienda Na Xamena</div>
+      <div id="c-3-2-card-item1">Ibiza</div>
+      <div id="c-3-2-card-item2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam</div>
+      <div id="c-3-2-card-item3"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M63 4 L63 16 L56 16 C53 16, 51 16, 50 18 C49 19, 49 20, 49 23 L49 32 L63 32 L61 45 L49 45 L49 81 L34 81 L34 45 L22 45 L22 32 L34 32 L34 21 C34 16, 36 11, 39 8 C42 5, 47 3, 52 3 C57 3, 61 3, 63 4"/>
+</svg>
+</div>
+      <div id="c-3-2-card-item4"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M80 19 C78 22, 75 25, 72 27 C72 27, 72 28, 72 29 C72 33, 72 37, 71 41 C69 45, 68 49, 65 53 C63 56, 60 60, 56 63 C53 65, 49 68, 44 69 C39 71, 34 72, 28 72 C19 72, 11 70, 4 65 C5 65, 6 65, 8 65 C15 65, 22 63, 27 59 C24 59, 21 58, 18 56 C15 54, 14 51, 13 48 C14 49, 15 49, 16 49 C17 49, 18 48, 20 48 C16 47, 13 46, 11 43 C8 40, 7 37, 7 33 L7 33 C9 34, 12 35, 14 35 C12 34, 10 32, 9 30 C8 27, 7 25, 7 22 C7 20, 8 17, 9 15 C13 19, 18 23, 24 26 C29 29, 35 30, 42 31 C41 29, 41 28, 41 27 C41 23, 43 19, 46 16 C49 13, 52 12, 57 12 C61 12, 65 14, 68 17 C72 16, 75 15, 78 13 C77 17, 75 19, 71 21 C74 21, 77 20, 80 19"/>
+</svg>
+</div>
+      <div id="c-3-2-card-item5"><svg class="svg-icon" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M51 50 C53 48, 54 45, 54 42 C54 39, 53 36, 51 34 C48 31, 45 30, 42 30 C39 30, 36 31, 33 34 C31 36, 30 39, 30 42 C30 45, 31 48, 33 50 C36 53, 39 54, 42 54 C45 54, 48 53, 51 50 Z M56 29 C59 33, 61 37, 61 42 C61 47, 59 51, 56 55 C52 59, 47 60, 42 60 C37 60, 32 59, 29 55 C25 51, 23 47, 23 42 C23 37, 25 33, 29 29 C32 25, 37 24, 42 24 C47 24, 52 25, 56 29 Z M65 20 C66 21, 66 22, 66 23 C66 24, 66 25, 65 26 C64 27, 63 27, 62 27 C61 27, 60 27, 59 26 C58 25, 57 24, 57 23 C57 22, 58 21, 59 20 C60 19, 61 18, 62 18 C63 18, 64 19, 65 20 Z M46 12 C44 12, 42 12, 42 12 C42 12, 41 12, 38 12 C36 12, 34 12, 33 12 C32 12, 31 12, 29 13 C27 13, 25 13, 24 13 C22 13, 21 14, 20 14 C19 15, 17 15, 16 17 C15 18, 14 19, 13 21 C13 22, 12 23, 12 24 C12 25, 12 27, 12 29 C12 31, 12 32, 12 33 C12 35, 12 36, 12 38 C12 41, 12 42, 12 42 C12 42, 12 43, 12 46 C12 48, 12 49, 12 51 C12 52, 12 53, 12 55 C12 57, 12 59, 12 60 C12 61, 13 62, 13 63 C14 65, 15 66, 16 67 C17 69, 19 69, 20 70 C21 70, 22 71, 24 71 C25 71, 27 71, 29 71 C31 71, 32 72, 33 72 C34 72, 36 72, 38 72 C41 72, 42 72, 42 72 C42 72, 44 72, 46 72 C48 72, 50 72, 51 72 C52 72, 54 71, 56 71 C57 71, 59 71, 60 71 C62 71, 63 70, 64 70 C66 69, 67 69, 68 67 C69 66, 70 65, 71 63 C71 62, 72 61, 72 60 C72 59, 72 57, 72 55 C72 53, 72 52, 73 51 C73 49, 73 48, 73 46 C72 43, 72 42, 72 42 C72 42, 72 41, 73 38 C73 36, 73 35, 73 33 C72 32, 72 31, 72 29 C72 27, 72 25, 72 24 C72 23, 71 22, 71 21 C70 19, 69 18, 68 17 C67 15, 66 15, 64 14 C63 14, 62 13, 60 13 C59 13, 57 13, 56 13 C54 12, 52 12, 51 12 C50 12, 48 12, 46 12 Z M79 27 C79 30, 79 35, 79 42 C79 49, 79 54, 79 57 C79 63, 77 68, 73 72 C69 76, 64 77, 57 78 C55 78, 49 78, 42 78 C35 78, 30 78, 27 78 C20 77, 15 76, 11 72 C8 68, 6 63, 5 57 C5 54, 5 49, 5 42 C5 35, 5 30, 5 27 C6 21, 8 16, 11 12 C15 8, 20 7, 27 6 C30 6, 35 6, 42 6 C49 6, 55 6, 57 6 C64 7, 69 8, 73 12 C77 16, 79 21, 79 27"/>
+</svg>
+</div>
+      <hr id="c-3-2-card-item6">
+   </div>
+</div>
+</div>
+<div class="default">
+<div id="wb_c-3-1" style="display:flex;width:100%;text-align:center;z-index:20;" class="card">
+   <div id="c-3-1-card-body">
+      <div style="overflow:hidden"><img id="c-3-1-card-item0" src="images/pro.jpg" width="1256" height="1256" alt="" title=""></div>
+      <div id="c-3-1-card-item1">طرح رامین رودباری</div>
+      <div id="c-3-1-card-item2">IRANSET</div>
+      <div id="c-3-1-card-item3">تاریخ انتشار<br>1401/06/15</div>
+      <div id="c-3-1-card-item4">TEXT...</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menuLayer" style="position:fixed;text-align:left;left:auto;right:0px;top:0px;width:71px;height:74px;z-index:55;z-index:11111;">
+<div id="wb_menu-Panel" style="position:absolute;left:9px;top:12px;width:50px;height:50px;text-align:center;z-index:22;">
+<a href="#PanelLayer" id="menu-Panel">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+</div>
+</div>
+<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:11px;top:auto;bottom:11px;width:50px;height:50px;z-index:56;">
+<div id="wb_up-Icon" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:23;">
+<a href="#welcome"><div id="up-Icon"><i class="fa fa-caret-up"></i></div></a></div>
+</div>
+<div id="wb_contact">
+<div id="contact-divider-top">
+</div>
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div id="wb_contact-heading" style="display:inline-block;width:100%;z-index:24;">
+<h1 id="contact-heading">تماس</h1>
+</div>
+<div id="wb_contact-text">
+<p>Do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+<div class="col-2">
+<input type="text" id="contactName" style="display:block;width: 100%;height:42px;z-index:26;" name="name" value="" spellcheck="false" placeholder="نام و نام خانوادگی">
+<input type="text" id="contactEmail" style="display:block;width: 100%;height:42px;z-index:27;" name="email" value="" spellcheck="false" placeholder="ایمیل">
+<input type="text" id="contactPhone" style="display:block;width: 100%;height:42px;z-index:28;" name="phone" value="" spellcheck="false" placeholder="شماره تلفن">
+<textarea name="message" id="contactMessage" style="display:block;width: 100%;;height:108px;z-index:29;" rows="4" cols="41" autocomplete="off" spellcheck="false" placeholder="پیام خود را در اینجا بنویسید"></textarea>
+<input type="submit" id="contactButton" name="" value="ارسال" style="display:block;width: 100%;;height:58px;z-index:30;">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_footer">
+<div id="footer">
+<div id="wb_footer-text">
+<p>© WYSIWYG Web Builder 2020. All Rights Reserved.</p>
+</div>
+<div id="wb_footerIcon1" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:32;">
+<a href="#"><div id="footerIcon1"><i class="fab fa-facebook"></i></div></a>
+</div>
+<div id="wb_footerIcon2" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:33;">
+<a href="#"><div id="footerIcon2"><i class="fab fa-twitter"></i></div></a>
+</div>
+<div id="wb_footerIcon3" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:34;">
+<a href="#"><div id="footerIcon3"><i class="fab fa-instagram"></i></div></a>
+</div>
+<div id="wb_footerIcon4" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:35;">
+<a href="#"><div id="footerIcon4"><i class="fab fa-youtube"></i></div></a>
+</div>
+</div>
+</div>
+<div id="PanelLayer" style="text-align:right;">
+<div id="wb_IconFont2" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:36;">
+<a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="bi bi-x-circle"></i></div></a>
+</div>
+<div id="wb_Heading3" style="display:inline-block;width:100%;z-index:37;">
+<h2 id="Heading3">RAMIN PARS</h2>
+</div>
+<div id="wb_OverlayMenu2" style="display:inline-block;width:100%;z-index:38;">
+<div class="OverlayMenu2">
+<ul class="OverlayMenu2" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">خانه</a></li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect">بلاگ</a>
+<ul class="sub-menu" role="menu">
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M60 32 C56 27, 51 22, 46 20 C47 22, 48 25, 48 28 C48 32, 46 36, 43 39 C40 42, 36 44, 32 44 C27 44, 23 42, 20 39 C17 36, 15 32, 15 28 C15 25, 16 22, 17 20 C12 22, 7 27, 3 32 C7 37, 11 41, 16 44 C21 47, 26 48, 32 48 C37 48, 43 47, 48 44 C53 41, 57 37, 60 32 Z M33 20 C33 19, 33 19, 33 19 C33 18, 33 18, 33 17 C33 17, 32 17, 32 17 C29 17, 26 18, 24 20 C22 22, 20 25, 20 28 C20 28, 21 29, 21 29 C21 29, 22 29, 22 29 C23 29, 23 29, 23 29 C24 29, 24 28, 24 28 C24 26, 25 24, 26 22 C28 21, 30 20, 32 20 C32 20, 33 20, 33 20 Z M64 30 C64 31, 65 31, 65 32 C65 33, 64 34, 64 35 C60 40, 56 45, 50 48 C44 51, 38 53, 32 53 C25 53, 19 51, 13 48 C7 45, 3 40, -1 35 C-1 34, -1 33, -1 32 C-1 31, -1 31, -1 30 C3 24, 7 20, 13 17 C19 13, 25 12, 32 12 C38 12, 44 13, 50 17 C56 20, 60 24, 64 30"/>
+</svg>
+Design</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M48 20 L49 14 L16 14 L18 33 L41 33 L40 41 L32 43 L25 41 L25 36 L18 36 L19 46 L32 50 L33 50 L33 50 L46 46 L48 27 L24 27 L23 20Z  M7 4 L58 4 L54 55 L32 61 L11 55Z "/>
+</svg>
+HTML</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M10 4 L65 4 L55 51 L26 61 L0 51 L3 38 L14 38 L13 44 L28 49 L46 44 L48 32 L4 32 L6 21 L51 21 L52 14 L8 14Z "/>
+</svg>
+CSS</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M19 48 L18 50 C17 50, 17 50, 17 50 C16 50, 16 50, 16 50 L-1 33 C-2 33, -2 33, -2 32 C-2 32, -2 32, -1 31 L16 15 C16 15, 16 14, 17 14 C17 14, 17 15, 18 15 L19 17 C20 17, 20 17, 20 17 C20 18, 20 18, 19 18 L5 32 L19 46 C20 47, 20 47, 20 47 C20 47, 20 48, 19 48 Z M41 10 L27 56 C27 56, 27 56, 27 57 C27 57, 26 57, 26 57 L24 56 C23 56, 23 56, 23 56 C23 55, 23 55, 23 55 L37 9 C37 8, 37 8, 37 8 C37 8, 38 8, 38 8 L40 8 C41 9, 41 9, 41 9 C41 9, 41 10, 41 10 Z M65 33 L48 50 C48 50, 48 50, 47 50 C47 50, 47 50, 46 50 L45 48 C44 48, 44 47, 44 47 C44 47, 44 47, 45 46 L59 32 L45 18 C44 18, 44 18, 44 17 C44 17, 44 17, 45 17 L46 15 C47 15, 47 14, 47 14 C48 14, 48 15, 48 15 L65 31 C66 32, 66 32, 66 32 C66 33, 66 33, 65 33"/>
+</svg>
+JavaScript</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect">ورک</a>
+<ul class="sub-menu" role="menu">
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M63 38 L63 9 C63 8, 62 8, 62 8 C62 8, 62 8, 61 8 L3 8 C2 8, 2 8, 2 8 C1 8, 1 8, 1 9 L1 38 C1 39, 1 39, 2 39 C2 39, 2 40, 3 40 L61 40 C62 40, 62 39, 62 39 C62 39, 63 39, 63 38 Z M67 9 L67 48 C67 49, 67 50, 66 52 C64 53, 63 53, 61 53 L41 53 C41 54, 42 55, 42 56 C42 57, 43 58, 43 59 C44 59, 44 60, 44 60 C44 61, 44 61, 43 62 C43 62, 42 62, 41 62 L23 62 C22 62, 21 62, 21 62 C20 61, 20 61, 20 60 C20 60, 20 59, 21 59 C21 58, 22 57, 22 56 C22 55, 23 54, 23 53 L3 53 C1 53, 0 53, -2 52 C-3 50, -3 49, -3 48 L-3 9 C-3 7, -3 6, -2 5 C0 4, 1 3, 3 3 L61 3 C63 3, 64 4, 66 5 C67 6, 67 7, 67 9"/>
+</svg>
+Web&nbsp;Design</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M18 16 C20 17, 20 19, 20 21 C20 22, 20 24, 18 25 C17 27, 15 27, 13 27 C11 27, 10 27, 8 25 C7 24, 6 22, 6 21 C6 19, 7 17, 8 16 C10 14, 11 14, 13 14 C15 14, 17 14, 18 16 Z M58 34 L58 50 L6 50 L6 43 L18 32 L24 38 L43 19Z  M61 9 L3 9 C2 9, 2 9, 2 9 C1 10, 1 10, 1 10 L1 54 C1 54, 1 54, 2 55 C2 55, 2 55, 3 55 L61 55 C62 55, 62 55, 62 55 C62 54, 63 54, 63 54 L63 10 C63 10, 62 10, 62 9 C62 9, 62 9, 61 9 Z M67 10 L67 54 C67 55, 67 57, 66 58 C64 59, 63 59, 61 59 L3 59 C1 59, 0 59, -2 58 C-3 57, -3 55, -3 54 L-3 10 C-3 9, -3 7, -2 6 C0 5, 1 5, 3 5 L61 5 C63 5, 64 5, 66 6 C67 7, 67 9, 67 10"/>
+</svg>
+Typography</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li class="item-has-children">
+<a role="menuitem" href="#" class="OverlayMenu2-effect"><svg class="overlay-icon" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M65 23 L65 52 C65 53, 64 55, 63 56 C62 57, 60 57, 59 57 L5 57 C3 57, 2 57, 0 56 C-1 55, -1 53, -1 52 L-1 23 C0 25, 1 26, 2 26 C11 32, 17 36, 21 39 C22 40, 23 41, 24 41 C25 42, 26 42, 28 43 C29 43, 30 44, 32 44 L32 44 L32 44 C33 44, 34 43, 36 43 C37 42, 38 42, 39 41 C40 41, 41 40, 43 39 C47 36, 53 32, 61 26 C62 26, 64 24, 65 23 Z M65 13 C65 15, 64 17, 63 18 C62 20, 60 21, 58 23 C49 29, 43 33, 41 34 C41 34, 40 35, 40 35 C39 36, 38 36, 38 37 C37 37, 36 37, 36 38 C35 38, 34 39, 33 39 C33 39, 32 39, 32 39 L32 39 L32 39 C31 39, 30 39, 30 39 C29 39, 28 38, 28 38 C27 37, 26 37, 26 37 C25 36, 25 36, 24 35 C23 35, 22 34, 22 34 C20 33, 17 31, 13 28 C8 25, 6 23, 5 23 C3 22, 2 20, 1 19 C-1 17, -1 15, -1 14 C-1 12, -1 10, 0 9 C1 8, 3 7, 5 7 L59 7 C60 7, 62 8, 63 9 C64 10, 65 11, 65 13"/>
+</svg>
+Applications</a>
+<ul class="sub-menu" role="menu">
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;1</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;2</a></li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a role="menuitem" href="#" class="OverlayMenu2-effect">درباره&nbsp;ما</a></li>
+   </ul>
+</div>
+
+</div>
+<div id="wb_Heading4" style="display:inline-block;width:100%;z-index:39;">
+<h2 id="Heading4">با خبر باشید با ما</h2>
+</div>
+<input type="text" id="Editbox2" style="display:block;width: calc(100% - 30px);height:29px;z-index:40;" name="email" value="" autocomplete="off" spellcheck="false" placeholder="آدرس الکترونیکی">
+<div id="wb_Text1" style="position:absolute;top:auto !important;bottom:0 !important;width:100% !important;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Copyright 2020 All rights reserved.<br>WYSIWYG Web Builder</span>
+</div>
+</div>
+</body>
+</html>

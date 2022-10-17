@@ -837,11 +837,12 @@ input:focus, textarea:focus, select:focus
    font-style: normal;
    text-decoration: none;
    text-align: center;
+   transition-duration: 0.4s;
 }
 #wb_menu-Panel a:hover
 {
    color: #F7F7F7;
-   background-color: #32C3F5;
+   background-color: #121212;
    border: 0px solid transparent;
 }
 #menu-Panel .line
@@ -953,6 +954,7 @@ body
    line-height: 24px;
    vertical-align: middle;
    width: 23px;
+   transition-duration: 1s;
 }
 #up-Icon:hover i
 {
@@ -1955,6 +1957,7 @@ body
    line-height: 30px;
    vertical-align: middle;
    width: 29px;
+   transition-duration: 0.4s;
 }
 #IconFont2:hover i
 {

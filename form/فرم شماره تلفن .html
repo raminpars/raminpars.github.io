@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><b>لطفا یک شماره وارد نمایید</b></p>
+
+<form action="#" method="post" id="MyForm" onsubmit="return My_Validate();">
+ وارد نمایید : <input type="number" name="My_Number">
+ <p><span id="Result"></span></p>
+ <input type="submit" value="ارسال">
+</form>
+
+<script>
+
+function My_Validate(){
+  var result , UserNumber;
+  result = document.getElementById("Result");
+  UserNumber = document.forms["MyForm"]["My_Number"].value;
+  
+  if ( UserNumber == "" ) {
+   result.innerHTML = "لطفا یک عدد وارد کن";
+   return false;
+  }
+  else if ( UserNumber <= 12 ){
+   result.innerHTML = "باید یه عدد بزرگتر از 12 وارد کنی";
+   return false;
+  }
+  else if ( UserNumber >= 12 ){
+   result.innerHTML = "باید یه عدد کمتر از 12وارد کنی";
+   return false;
+  }
+  else{
+   alert("همه چی درسته و فرم ارسال شد");
+  }
+}
+
+</script>
+
+</body>
+</html>

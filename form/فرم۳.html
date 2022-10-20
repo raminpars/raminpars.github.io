@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Message</title>
+    <style type="text/css" media="all">
+        body {
+            text-align: rtl;
+            direction: center;
+            background: black;
+            color: #ffffff;
+            font-family: Courier;
+            font-size: 8px;
+        }
+        inpbut {
+            font: Courier;
+            border: 2px solid rgb(28, 110, 164);
+        }
+        .myButton {
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            line-height: 12px;
+            padding: 4px;
+            border-radius: 47px;
+            font-family: Georgia, serif;
+            font-weight: normal;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            background-image:
+            border: 2px solid rgb(28, 110, 164);
+            display: inline-block;
+        }
+        .myButton:hover {
+            background: #1C6EA4;
+        }
+        .myButton:active {
+            background: #144E75;
+        }
+    </style>
+</head>
+<body>
+    <form action="myphp.php" method="post" name="myform">
+        <div>
+            <h4>پیام</h4>
+            <textarea id="msg" name="msg" rows="5" cols="40"> </textarea> <br>
+        </div>
+
+        <div>
+            <h4>نام و نام خانوادگی:</h4>
+            <input type="text" name="your_name" id="your_name" /> <br>
+        </div>
+
+        <div>
+            <h4>شماره تلفن شما:</h4>
+            <input type="text" name="customer_number" id="customer_number" /> <br>
+        </div>
+
+        <div>
+            <br /> <br /> <br />
+            <button class="myButton">فرستادن پیام</button>
+        </div>
+    </form>
+</body>
+</html>

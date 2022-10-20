@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p dir="rtl"><b>لطفا شماره تلفن را وارد نمایید</b></p>
+<p dir="rtl"><b>فرمت باید بصورت 4567-123-0912 باشد</b></p>
+<p dir="rtl"><b>یعنی شماهم اول باید 4 رقم اول شماره رو بنویسی بعدش یه - بزاری بعدش 3 رقم بعد - و در نهایت 4 رقم آخر</b></p>
+
+<form action="files/get_data13.php" method="POST">
+ <input type="tel" name="TelNumber" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+ <input type="submit" value="ارسال">
+</form>
+
+</body>
+</html>

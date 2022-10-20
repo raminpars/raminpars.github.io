@@ -29,4 +29,3 @@
 </form>
 ```
 
-<a target="_top" onclick="if (!window.__cfRLUnblockHandlers) return false; window.history.go(-1)" style="margin-top: 1em;">بازگشت به سایت اصلی</a>

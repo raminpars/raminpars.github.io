@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title></title>
+        <style type="text/css" media="all">
+           body
+{
+  direction:rtl;
+  padding:10px;
+}
+body.dark {
+	 background-color: #111;
+	 color: #eee;
+}
+ body.dark a {
+	 color: #f00;
+}
+ body.dark button {
+	
+	 color: #111;
+}
+ body.light {
+	 
+	 color: #111;
+}
+ body.light a {
+	 color: #111;
+}
+ body.light button {
+	
+	 color: #eee;
+}
+body.dark .button {
+  
+  color:#fff ;
+}
+body.dark .notification {
+
+  color:#fff 
+} 
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+        </style>
+        <script type="text/javascript" charset="utf-8">
+            function toggleDl() {
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark" ? "light" : "dark";
+}
+        </script>
+    </head>
+    <body id="body">
+     <a class="inner-switch is-danger"
+     name="dark_light" onclick="toggleDl()" >شب / روز</a>
+  <hr>
+    </body>
+</html>

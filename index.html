@@ -560,6 +560,17 @@ $(document).ready(function()
 </div>
 <div id="PanelLayer" style="text-align:right;">
 <div id="wb_IconFont2" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:36;">
+<!-- ----------------------    -->
+<!--                 <a class="inner-switch is-danger" name="dark_light" onclick="darkmod()">
+                </a>-->
+                <hr />
+                <p onclick="darkmod()" style="width: 90px;" class="inner-switch is-danger text-ra-1 ra-tex-t son-moon-p">
+                   <i class="fa son-moon" ><!-- onclick="icons" --></i>
+
+                </p>
+            </div>
+<!--       ------------------- -->
+   
 <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times-circle"></i></div></a>
 </div>
 <div id="wb_Heading3" style="display:inline-block;width:100%;z-index:37;">
@@ -669,5 +680,13 @@ Applications</a>
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Copyright 2020 All rights reserved.<br>RAMNPARS</span>
 </div>
 </div>
+   
+        <script>
+            function darkmod() {
+                var body = document.getElementById("body");
+                var currentClass = body.className;
+                body.className = currentClass == "dark" ? "light" : "dark";
+            }
+        </script>
 </body>
 </html>

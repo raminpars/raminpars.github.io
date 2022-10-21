@@ -1,9 +1,4 @@
-body {
-    direction: rtl;
-    padding: 10px;
-    transition-duration: 0.3s;
-    background: #f6f6f6;
-}
+body {transition-duration: 1s;}
 
 .inner-switch {
     display: inline-block;
@@ -17,7 +12,7 @@ body {
     margin-left: 0.3125rem;
 }
 
-hr {
+.r-hr-1 {
     border: none;
     height: 1px;
     background: transparent;
@@ -38,12 +33,12 @@ body.light{
     background: #f6f6f6;
 }
 
-body.dark hr {
+body.dark .r-hr-1 {
     background: #ff9e0d;
     box-shadow: 0 0 13px #fbff00;
 }
 
-body.light hr {
+body.light .r-hr-1 {
     background: #0dff00;
     box-shadow: 0 0 3px #0dff00;
 }
@@ -58,19 +53,19 @@ body.dark .son-moon {
 }
 
 body.light .son-moon::before {
-    content: "\f185";
+    content: "\f185 ";
 }
 
 body.dark .son-moon::before {
-    content: "\f186";
+    content: "\f186 ";
 }
 
 body.light .son-moon-p::before {
-    content: "حالت روشن";
+    content: " حالت روشن ";
 }
 
 body.dark .son-moon-p::before {
-    content: "حالت تاریک";
+    content: " حالت تاریک ";
 }
 
 .text-ra-1 {
@@ -78,9 +73,9 @@ body.dark .son-moon-p::before {
     margin: 10px;
 }
 
-.g-r-1 {
-    background: linear-gradient(90deg, #00e6be 0%, #321ebe, #af00d7, #ff1e5f, #ffb419);
-}
+/* .g-r-1 {
+     background: linear-gradient(90deg, #00e6be 0%, #321ebe, #af00d7, #ff1e5f, #ffb419); */
+ } */
 
 .pio {
     display: flex;

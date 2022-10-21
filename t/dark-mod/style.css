@@ -1,6 +1,8 @@
 body {
     direction: rtl;
     padding: 10px;
+    transition-duration: 0.3s;
+    background: #f6f6f6;
 }
 
 .inner-switch {
@@ -25,6 +27,16 @@ hr {
     border-radius: 5px;
     background: linear-gradient(90deg, #00e6be, #321ebe, #af00d7, #ff1e5f, #ffb419);
 }
+body.dark {
+    background:#000;
+    color: #fff;
+    text-shadow: 0 0 15px;
+    transition-duration: 0.3s;
+}
+
+body.light{
+    background: #f6f6f6;
+}
 
 body.dark hr {
     background: #ff9e0d;
@@ -38,6 +50,7 @@ body.light hr {
 
 body.light .son-moon {
     color: #ffa318;
+    transition-duration: 1s;
 }
 
 body.dark .son-moon {
@@ -74,4 +87,5 @@ body.dark .son-moon-p::before {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    height: 20vh;
 }

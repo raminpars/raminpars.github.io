@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="fa">
-
-    <head>
+<html lang="fa"><head>
         <!-- ------------------------------------------------------------- -->
         <!-- meta -->
         <meta charset="UTF-8">
@@ -21,19 +18,21 @@
         <link rel="stylesheet" href="../../font/fontawesome/css/all.css">
         <!-- bootstrap-icons -->
         <link rel="stylesheet" href="../../font/bootstrap/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- ------------------------------------------------------------- -->
     </head>
 
-    <body id="body" class="light">
+    <body id="body" class="dark">
         <header class="header"></header>
         <main class="main">
             <div class="box-center">
-                <a class="inner-switch is-danger" name="dark_light" onclick="toggle()">
+                <a class="inner-switch is-danger" name="dark_light" onclick="darkmod()">
                     <i class="fa son-moon" onclick="icons"></i>
 
                 </a>
                 <hr>
-                <p onclick="toggle()" style="width: 90px;" class="inner-switch is-danger text-ra-1 ra-tex-t son-moon-p">
+                <p onclick="darkmod()" style="width: 90px;" class="inner-switch is-danger text-ra-1 ra-tex-t son-moon-p">
                 </p>
             </div>
             <p> dark </p>
@@ -48,12 +47,13 @@
         </main>
         <footer class="footer"></footer>
         <script>
-            function toggle() {
+            function darkmod() {
                 var body = document.getElementById("body");
                 var currentClass = body.className;
                 body.className = currentClass == "dark" ? "light" : "dark";
             }
         </script>
-    </body>
+    
 
-</html>
+
+</body></html>

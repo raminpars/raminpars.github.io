@@ -1,5 +1,5 @@
 # raminpars.gtihub.io
 
-|||
+|[OPEN](https://raminpars.github.io/)|[EDIT](https://github.com/raminpars/raminpars.github.io/edit/main/index.html)|[CSS](https://github.com/raminpars/raminpars.github.io/edit/main/css/home.css)|
+|:------:|:---------------------------------------------------------------------------:|:-----:|
 
-|[OPEN]()|[EDIT](https://github.com/raminpars/raminpars.github.io/blob/main/index.html)|[CSS]()|

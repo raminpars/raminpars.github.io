@@ -28,9 +28,11 @@ a:active {
    color: #00CDCD;
 }
 
-a:hover {
-   color: #00FF00;
-   text-decoration: underline;
+body.dark a:hover.inner-switch.is-danger.text-ra-1.ra-tex-t.son-moon-p {
+   color: #ffffff;
+   text-decoration: none;
+   box-shadow: 1px 0 19px 2px #efb500;
+   text-shadow: 0 0 10px;
 }
 
 body.dark p {

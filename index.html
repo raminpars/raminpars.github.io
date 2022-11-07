@@ -3,7 +3,7 @@
 
    <head>
       <meta charset="utf-8">
-      <title>Sunset</title>
+      <title>خانه - home</title>
       <meta name="generator" content="RAMIN PARS - https://raminpars.github.io">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://raminpars.github.io/font/bootstrap/icon.css">
@@ -186,15 +186,17 @@
          }
       </script>
       <style>
-         .inner-switch {
+         inner-switch {
             display: inline-block;
             cursor: pointer;
             border: 1px solid rgb(85 85 85 / 35%);
             border-radius: 8px;
             text-align: center;
             font-size: 1rem;
-            padding: 1.1875rem;
+            padding: 0.1875rem;
             margin-left: 0.3125rem;
+            background: white;
+            text-decoration: none;
          }
 
          #hr {
@@ -234,12 +236,12 @@
             content: "\f186";
          }
 
-         body.light .son-moon-p::before {
-            content: "حالت تاریک";
+         body.light .son-moon-p::after {
+            content: " حالت تاریک";
          }
 
-         body.dark .son-moon-p::before {
-            content: "حالت روشن";
+         body.dark .son-moon-p::after {
+            content: " حالت روشن";
          }
 
          .g-r-1 {
@@ -251,6 +253,17 @@
             justify-content: space-evenly;
             align-items: center;
             flex-wrap: wrap;
+         }
+         
+         body.dark a.inner-switch.is-danger.text-ra-1.ra-tex-t.son-moon-p {
+            background: #222;
+            color: steelblue;
+            background-clip: border-box;
+            font-size: 16px;
+         }
+         
+         a:hover.inner-switch.is-danger.text-ra-1.ra-tex-t.son-moon-p {
+            color: #000;
          }
       </style>
    </head>
@@ -638,7 +651,7 @@
       <div id="wb_footer">
          <div id="footer">
             <div id="wb_footer-text">
-               <p>© [***] 2022. All Rights Reserved.</p>
+               <p>© RAMIN PARS 2022. All Rights Reserved.</p>
             </div>
             <div id="wb_footerIcon1" style="display:inline-block;width:28px;height:28px;text-align:center;z-index:32;">
                <a href="#">
@@ -783,13 +796,12 @@
          </div>
          <div id="wb_Heading4" style="display:inline-block;width:100%;z-index:39;">
             <!-- <h2 id="Heading4">با خبر باشید با ما</h2> -->
-            <a onclick="toggle()" class="inner-switch is-danger text-ra-1 ra-tex-t son-moon-p"> </a>
+            <a onclick="toggle()" class="inner-switch is-danger text-ra-1 ra-tex-t son-moon-p"><i class="fa son-moon"></i> </a>
          </div>
          <input type="text" id="Editbox2" style="display:block;width: calc(100% - 30px);height:29px;z-index:40;"
             name="email" value="" autocomplete="off" spellcheck="false" placeholder="آدرس الکترونیکی">
          <div id="wb_Text1" style="position:absolute;top:auto !important;bottom:0 !important;width:100% !important;">
-            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Copyright 2020 All rights reserved.<br>WYSIWYG
-               Web Builder</span>
+            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Copyright 2020 All rights reserved.<br>RAMON PARS</span>
          </div>
       </div>
    </body>

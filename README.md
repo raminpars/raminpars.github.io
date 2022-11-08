@@ -1,6 +1,6 @@
 # raminpars.gtihub.io
 
-<img src="raminpars.github.io/img/ramin-pars.svg" />
+<img src="https://raw.githubusercontent.com/raminpars/raminpars.github.io/8605e6df2bdc618bc44de71e4f6fb0ce4516f5aa/img/ramin-pars.svg" />
 
 |[OPEN](https://raminpars.github.io/)|[EDIT](https://github.com/raminpars/raminpars.github.io/edit/main/index.html)|[CSS](https://github.com/raminpars/raminpars.github.io/edit/main/css/home.css)|
 |:------:|:---------------------------------------------------------------------------:|:-----:|
